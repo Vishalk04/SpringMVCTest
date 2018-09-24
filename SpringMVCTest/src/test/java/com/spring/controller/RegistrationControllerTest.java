@@ -31,10 +31,7 @@ public class RegistrationControllerTest {
 	private RegistrationServicesImpl registrationServices;
 	
 	
-	@Test
-	public void test(){
-		fail("nopt implemented");
-	}
+
 	
 	@Test
 	public void shouldReturnResgisteredUserSuccessPage(){

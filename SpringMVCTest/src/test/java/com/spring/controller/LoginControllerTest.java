@@ -31,6 +31,7 @@ public class LoginControllerTest {
 	
 	
 	
+	@Ignore
 	@Test
 	public void shouldLoginUserWhenUserIdAndPasswordIsCorrect(){
 
