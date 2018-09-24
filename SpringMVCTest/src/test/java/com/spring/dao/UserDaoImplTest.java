@@ -12,6 +12,7 @@ import javax.persistence.EntityManager;
 
 import org.hibernate.query.Query;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -33,10 +34,7 @@ public class UserDaoImplTest {
 	@Mock
 	Query mockedQuery;
 	
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+
 
 	
 	@Test
@@ -47,6 +45,7 @@ public class UserDaoImplTest {
 		assertTrue(userDaoImpl.registerUser(user));
 	}
 	
+	@Ignore
 	@Test
 	public void shouldReturnUserIfAvailableInDB (){
  		User user = new User();

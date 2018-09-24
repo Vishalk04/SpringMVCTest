@@ -27,10 +27,6 @@ public class RegistrationServicesImplTest {
 	private UserDaoImpl userDao;
 	
 	
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	
 	@Test
